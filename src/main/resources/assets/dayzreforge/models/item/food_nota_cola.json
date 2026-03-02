@@ -1,0 +1,6 @@
+{
+  "parent": "dayzreforge:item/food_base_drink_jar",
+  "textures": {
+    "layer0": "dayzreforge:item/food_nota_cola"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "dayzreforge:block/block_water_pump"
+        }
+    }
+}

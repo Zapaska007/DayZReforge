@@ -1,0 +1,7 @@
+
+{
+  "parent": "dayzreforge:item/food_base_cann",
+  "textures": {
+    "layer0": "dayzreforge:item/food_canned_bacon"
+  }
+}

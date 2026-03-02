@@ -1,0 +1,6 @@
+{
+  "parent": "dayzreforge:item/food_base_drink_jam_and_honey",
+  "textures": {
+    "layer0": "dayzreforge:item/food_honey"
+  }
+}

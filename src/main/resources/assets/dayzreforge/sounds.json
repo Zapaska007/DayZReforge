@@ -1,0 +1,13 @@
+{
+    "kuru_laugh": {
+        "category": "player",
+        "subtitle": "subtitles.dayzreforge.kuru_laugh",
+        "sounds": [
+            {
+                "name": "dayzreforge:kuru_laugh",
+                "stream": true,
+                "volume": 0.8
+            }
+        ]
+    }
+}
