@@ -53,7 +53,9 @@ public class HeatingPadItem extends Item {
                     stack.getTag().putBoolean("Used", true);
                 } else {
                     // Apply Heating Pad effect continuously while it's in the inventory and active
-                    player.addEffect(new MobEffectInstance(ModEffects.HEATING_PAD.get(), 40, 0, false, false, true));
+                    // Parameters: duration (40 ticks), amplifier (0), ambient (false), visible
+                    // particles (false), show icon (false)
+                    player.addEffect(new MobEffectInstance(ModEffects.HEATING_PAD.get(), 40, 0, false, false, false));
                 }
             }
         }
@@ -65,10 +67,12 @@ public class HeatingPadItem extends Item {
         if (stack.hasTag()) {
             if (stack.getTag().getBoolean("Used")) {
                 tooltipComponents
-                        .add(Component.translatable("tooltip.dayzreforge.used").withStyle(ChatFormatting.DARK_GRAY));
+                        .add(Component.translatable("tooltip.dayzreforge.heating_pad_used")
+                                .withStyle(ChatFormatting.DARK_GRAY));
             } else if (stack.getTag().getBoolean("Active")) {
                 tooltipComponents
-                        .add(Component.translatable("tooltip.dayzreforge.activated").withStyle(ChatFormatting.RED));
+                        .add(Component.translatable("tooltip.dayzreforge.heating_pad_active")
+                                .withStyle(ChatFormatting.RED));
             }
         }
         super.appendHoverText(stack, level, tooltipComponents, isAdvanced);

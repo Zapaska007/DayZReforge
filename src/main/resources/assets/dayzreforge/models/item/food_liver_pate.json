@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "dayzreforge:item/food_base_pajka",
   "textures": {
     "layer0": "dayzreforge:item/food_liver_pate"
   }

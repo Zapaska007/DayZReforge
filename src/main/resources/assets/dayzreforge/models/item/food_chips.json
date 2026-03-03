@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "dayzreforge:item/food_base_chips",
   "textures": {
     "layer0": "dayzreforge:item/food_chips"
   }

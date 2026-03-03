@@ -71,10 +71,16 @@
     "effect.dayzreforge.bleeding": "Кровотечение",
     "effect.dayzreforge.blood_infection": "Заражение крови",
     "effect.dayzreforge.kuru": "Куру",
+    "effect.dayzreforge.pneumonia": "Пневмония",
+    "effect.dayzreforge.multivitamin_buff": "Действие витаминов",
+    "effect.dayzreforge.heating_pad": "Активное согревание",
     "subtitles.dayzreforge.kuru_laugh": "Зловещий смех",
     "key.category.dayzreforge": "DayzReforge Управление",
     "key.dayzreforge.empty_canteen": "Вылить воду из фляжки",
     "key.dayzreforge.suicide": "Совершить самоубийство",
     "death.attack.dayzreforge.kuru": "%1$s был заражен болезнью куру",
-    "death.attack.dayzreforge.suicide": "%1$s не смог(ла) жить и засуицидился"
+    "death.attack.dayzreforge.suicide": "%1$s не смог(ла) жить и засуицидился",
+    "death.attack.dayzreforge.pneumonia": "%1$s замерз насмерть от пневмонии.",
+    "tooltip.dayzreforge.heating_pad_active": "Активировано",
+    "tooltip.dayzreforge.heating_pad_used": "Использованна"
 }

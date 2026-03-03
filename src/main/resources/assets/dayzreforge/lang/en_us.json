@@ -71,10 +71,16 @@
     "effect.dayzreforge.bleeding": "Bleeding",
     "effect.dayzreforge.blood_infection": "Blood Infection",
     "effect.dayzreforge.kuru": "Kuru",
+    "effect.dayzreforge.pneumonia": "Pneumonia",
+    "effect.dayzreforge.multivitamin_buff": "Vitamins Effect",
+    "effect.dayzreforge.heating_pad": "Active Heating",
     "subtitles.dayzreforge.kuru_laugh": "Sinister Laugh",
     "key.category.dayzreforge": "DayzReforge Keybinds",
     "key.dayzreforge.empty_canteen": "Empty Canteen",
     "key.dayzreforge.suicide": "Commit Suicide",
     "death.attack.dayzreforge.kuru": "%1$s was infected by the Kuru disease",
-    "death.attack.dayzreforge.suicide": "%1$s couldn't go on and committed suicide"
+    "death.attack.dayzreforge.suicide": "%1$s couldn't go on and committed suicide",
+    "death.attack.dayzreforge.pneumonia": "%1$s froze to death from Pneumonia.",
+    "tooltip.dayzreforge.heating_pad_active": "Activated",
+    "tooltip.dayzreforge.heating_pad_used": "Used"
 }

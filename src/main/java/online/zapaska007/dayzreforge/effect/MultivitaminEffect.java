@@ -4,8 +4,6 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import sfiomn.legendarysurvivaloverhaul.api.temperature.ITemperatureCapability;
-import sfiomn.legendarysurvivaloverhaul.api.thirst.IThirstCapability;
 import sfiomn.legendarysurvivaloverhaul.util.CapabilityUtil;
 import online.zapaska007.dayzreforge.registry.ModEffects;
 

@@ -69,7 +69,9 @@ public class ModItems {
         public static final RegistryObject<Item> MEDICAL_MORPHINE = ITEMS.register("medical_morphine",
                         () -> new Item(new Item.Properties().stacksTo(1)));
         public static final RegistryObject<Item> MEDICAL_CHEMICAL_HEATING_PAD = ITEMS
-                        .register("medical_chemical_heating_pad", () -> new Item(new Item.Properties().stacksTo(1)));
+                        .register("medical_chemical_heating_pad",
+                                        () -> new online.zapaska007.dayzreforge.item.HeatingPadItem(
+                                                        new Item.Properties().stacksTo(1)));
         public static final RegistryObject<Item> MEDICAL_BANDAGE = ITEMS.register("medical_bandage",
                         () -> new MedicalItem(new Item.Properties().stacksTo(1).defaultDurability(3)));
         public static final RegistryObject<Item> MEDICAL_RAGS = ITEMS.register("medical_rags",

@@ -4,8 +4,6 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import sfiomn.legendarysurvivaloverhaul.api.temperature.ITemperatureCapability;
 import sfiomn.legendarysurvivaloverhaul.util.CapabilityUtil;
 
 public class HeatingPadEffect extends MobEffect {
